@@ -12,7 +12,7 @@ const createHTML = (data) => {
     return `
             <div>Your slug: ${data.slug}</div>
             <div>Your url: <a href="${data.url}" target="_blank" >${data.url}</a></div>
-            <div>Here is your shorten url: <a href="/${data.slug}" target="_blank" >${src}${data.slug}</a> </div>
+            <div>Here is your shorten url: <a href="/${data.slug}" target="_blank" >stuh.herokuapp.com/${data.slug}</a> </div>
             `;
   }
 };
