@@ -3,7 +3,7 @@ const url = document.querySelector('#url');
 const slug = document.querySelector('#slug');
 const result = document.querySelector('.result');
 
-const src = 'http://localhost:9999/';
+const src = 'https://stuh.herokuapp.com/';
 
 const createHTML = (data) => {
   if (data.error) {
